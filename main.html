@@ -13,7 +13,7 @@
 <h4>FILL THE FOLLOWING REGISTRATION FORM</h4>
 <hr><br>
 <center>
-<form>	
+<form method="post">	
 <label for="name">Name</label>	
 <input type="text" name="name" id="name" placeholder="Name" required><br><br>
 <label for="Email">Email</label>	
@@ -34,8 +34,16 @@
 
 </label><br><br>
 <label for="age">Age</label>
-<input type="number" name="age" id="age" placeholder="Age">	
-<label for
+<input type="number" name="age" id="age" placeholder="Age"><br><br>	
+<label for="dob">DOB</label>
+<input type="date" id="dob" required	><br><br>
+<label for="tel">Phone Number</label>
+<input type="tel"	id="tel" placeholder="xxx-xxx-xxxx"><br><br>
+<label for="password">Password</label>
+<input type="Password" id="password" placeholder="Password"><br><br>	
+<input type="checkbox" id="tos">
+	<label for="tos">I agree to the TOS</label><br><br>
+<input type="submit" value="Submit">	
 </center>
 </form>	
 </body>
